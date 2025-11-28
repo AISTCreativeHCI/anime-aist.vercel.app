@@ -15,6 +15,9 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+  body > section > header img {
+    filter: invert(1);
+  }
 }
 
 body {
@@ -50,7 +53,7 @@ body > section > header img {
   max-width: 800px;
 }
 
-body > section > header img path {
+body > section > header img {
   fill: var(--foreground);
 }
 
