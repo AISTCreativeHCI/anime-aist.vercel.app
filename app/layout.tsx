@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import { ReactNode } from "react";
 import "./globals.css";
 
-const geistSans = Geist({
+const geistSans = GeistSans({
   variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+// Noto Sans JP exposes only the "latin" subset flag in next/font; the full
+// Japanese glyph set is still delivered by the underlying font.
+const notoSansJp = Noto_Sans_JP({
+  variable: "--font-noto-sans-jp",
   subsets: ["latin"],
 });
 
@@ -40,7 +48,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${notoSansJp.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -19,7 +19,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Geist", "Noto Sans Japanese", Arial, Helvetica, sans-serif;
+  font-family: var(--font-noto-sans-jp), var(--font-geist-sans), Arial,
+    Helvetica, sans-serif;
 }
 
 body > section {
