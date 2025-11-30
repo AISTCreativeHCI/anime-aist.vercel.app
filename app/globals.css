@@ -44,6 +44,14 @@ body > section > footer {
   border-top: 1px solid var(--foreground);
 }
 
+body > section > footer > p:not(.copyright) {
+  text-align: left;
+}
+
+body > section > footer > p.copyright {
+  margin-top: 2em;
+}
+
 body > section > header img {
   width: 100%;
   max-width: 800px;
