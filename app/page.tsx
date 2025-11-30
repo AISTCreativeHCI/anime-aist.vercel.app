@@ -1,141 +1,10 @@
 import { NextPage } from "next";
+import memberGroupsData from "../data/member-groups.json";
+import HistorySection from "./components/HistorySection";
+import MemberGroups from "./components/MemberGroups";
+import type { MemberGroup } from "../types/members";
 
-const groupTitles = [
-  "産業技術総合研究所",
-  "株式会社オー・エル・エム・デジタル",
-  "東京大学",
-];
-
-const groups = [
-  [
-    [
-      "加藤 淳",
-      "産業技術総合研究所",
-      "アニマーレ PI, 人間情報インタラクション研究部門",
-      "主任研究員",
-      "https://junkato.jp/ja/animare",
-    ],
-    ["後藤 真孝", "産業技術総合研究所", "情報・人間工学領域", "上級首席研究員"],
-    [
-      "中野 倫靖",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "研究グループ長",
-    ],
-    [
-      "佃 洸摂",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "主任研究員",
-    ],
-    [
-      "渡邉 研斗",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "主任研究員",
-    ],
-    [
-      "中塚 貴之",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "主任研究員",
-    ],
-    [
-      "Cheng Tian",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "研究員",
-    ],
-    [
-      "橋本 麦",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "協力研究員",
-    ],
-    [
-      "大川 恵実",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "協力研究員",
-    ],
-    [
-      "三原 龍太郎",
-      "産業技術総合研究所",
-      "人間情報インタラクション研究部門",
-      "協力研究員",
-    ],
-    [
-      "濱﨑 雅弘",
-      "産業技術総合研究所",
-      "人工知能研究センター",
-      "副研究センター長",
-    ],
-    [
-      "片岡 裕雄",
-      "産業技術総合研究所",
-      "人工知能研究センター",
-      "上級主任研究員",
-    ],
-    ["柳 凜太郎", "産業技術総合研究所", "人工知能研究センター", "研究員"],
-  ],
-  [
-    [
-      "前島 謙宣",
-      "株式会社オー・エル・エム・デジタル",
-      "アニマーレ Co-PI, 研究開発部門",
-      "Head of Research",
-    ],
-    [
-      "熊谷 一樹",
-      "株式会社オー・エル・エム・デジタル",
-      "研究開発部門",
-      "Software Engineer",
-    ],
-    [
-      "川出 達也",
-      "株式会社オー・エル・エム・デジタル",
-      "研究開発部門",
-      "Software Engineer",
-    ],
-    [
-      "木下 美紀",
-      "株式会社オー・エル・エム・デジタル",
-      "研究開発部門",
-      "Head of Development",
-    ],
-    [
-      "四倉 達夫",
-      "株式会社オー・エル・エム・デジタル",
-      "研究開発部門",
-      "R&D Supervisor",
-    ],
-    [
-      "木村 歩",
-      "株式会社オー・エル・エム・デジタル",
-      "研究開発部門",
-      "R&D Manager",
-    ],
-    [
-      "安生 健一",
-      "株式会社オー・エル・エム・デジタル",
-      "研究開発部門",
-      "Executive R&D Advisor",
-    ],
-  ],
-  [
-    ["小山 裕己", "東京大学", "アニマーレ Co-PI, 大学院工学系研究科", "准教授"],
-    ["五十嵐 健夫", "東京大学", "大学院情報理工学系研究科", "教授"],
-    ["沈 奕超", "東京大学", "大学院情報理工学系研究科", "助教"],
-    ["河野 将大", "東京大学", "大学院情報理工学系研究科", "修士学生"],
-    ["坂宮 丞太郎", "東京大学", "大学院情報理工学系研究科", "修士学生"],
-    ["姫 越翔", "東京大学", "大学院情報理工学系研究科", "修士学生"],
-    ["丸山 敦史", "東京大学", "大学院情報理工学系研究科", "修士学生"],
-    ["高 旺", "東京大学", "大学院情報理工学系研究科", "修士学生"],
-    ["張 以恒", "東京大学", "大学院情報理工学系研究科", "修士学生"],
-    ["齋藤 峻", "東京大学", "理学部情報科学科", "学部生"],
-    ["朱 梓豪", "東京大学", "大学院工学系研究科", "修士学生"],
-  ],
-];
+const memberGroups: MemberGroup[] = memberGroupsData;
 
 const IndexPage: NextPage = () => {
   return (
@@ -151,61 +20,20 @@ const IndexPage: NextPage = () => {
         </header>
         <p>
           <strong>Animāre（アニマーレ）</strong>
-          はラテン語で「命を吹き込む」を意味し、アニメーションの語源でもあります。アニメ（"ani"-me）づくりを対象に、しなやかなツール群（"ma"-lleable
-          tools）の基盤技術を研究開発し、アニメ制作に関わる多様なクリエータとツール開発者が互いに影響を与え合う関係（"re"-ciprocal
+          はラテン語で「命を吹き込む」を意味し、アニメーションの語源でもあります。アニメ（"ani"-me）づくりを対象に、しなやかなツ
+          ール群（"ma"-lleable tools）の基盤技術を研究開発し、アニメ制作に関わる多様なクリエータとツール開発者が互いに影響を与え
+          合う関係（"re"-ciprocal
           relationship）を築ける環境の実現を目指すプロジェクトです。
         </p>
       </section>
       <div className="image">
         <img src="/animare_signature-stroke_A.svg" alt="---" />
       </div>
-      <section id="members">
-        <h2>メンバー</h2>
-        {groups.map((members, i) => (
-          <div key={`group_${i}`}>
-            <h3>{groupTitles[i]}</h3>
-            <ul>
-              {members.map((member) => (
-                <li key={member[0]}>
-                  <strong>
-                    {member.length > 4 ? (
-                      <a href={member[4]}>{member[0]}</a>
-                    ) : (
-                      member[0]
-                    )}
-                  </strong>
-                  （{/*member[1]*/}
-                  {member[2]} {member[3]}）
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </section>
+      <MemberGroups groups={memberGroups} />
       <div className="image">
         <img src="/animare_signature-stroke_B.svg" alt="---" />
       </div>
-      <section id="history">
-        <h2>更新履歴</h2>
-        <ul>
-          <li>
-            <strong>2025/11/28</strong> Webページを公開
-          </li>
-        </ul>
-
-        <footer>
-          <p>
-            本プロジェクトは、
-            <a href="https://www.jst.go.jp/kisoken/cronos/">JST CRONOS</a>{" "}
-            2025年度採択課題「高融合性ツール基盤技術によるアニメ共創環境の実現」
-            （JPMJCS25K1）の支援を受けたものです。
-          </p>
-          <p className="copyright">
-            &copy; 2025 Animāre（アニマーレ） &mdash; AIST, OLM Digital Inc.,
-            The University of Tokyo
-          </p>
-        </footer>
-      </section>
+      <HistorySection />
     </>
   );
 };
