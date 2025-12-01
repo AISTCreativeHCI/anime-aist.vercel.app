@@ -45,11 +45,31 @@ body > section > footer {
   border-top: 1px solid var(--foreground);
 }
 
-body > section > footer > p:not(.copyright) {
+body > section > footer > .cronos p {
   text-align: left;
 }
 
-body > section > footer > p.copyright {
+body > section > footer > .cronos > img {
+  width: 105px;
+}
+
+@media (min-width: 600px) {
+  body > section > footer > .cronos {
+    display: flex;
+  }
+
+  body > section > footer > .cronos > img {
+    flex-grow: 0;
+    width: 105px;
+    padding-left: 15px;
+  }
+}
+
+body > section > footer > .cronos > p {
+  flex-grow: 1;
+}
+
+body > section > footer > .copyright {
   margin-top: 2em;
 }
 
