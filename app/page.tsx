@@ -46,7 +46,12 @@ const IndexPage: NextPage = () => {
               2025年度採択課題「高融合性ツール基盤技術によるアニメ共創環境の実現」
               （JPMJCS25K1）の支援を受けたものです。
             </p>
-            <img src="/cronos.svg" alt="[JST CRONOS ロゴ]" />
+            <img src="/cronos.svg" alt="[JST CRONOS ロゴ]" className="light" />
+            <img
+              src="/cronos-monochrome.svg"
+              alt="[JST CRONOS ロゴ]"
+              className="dark"
+            />
           </div>
           <p className="copyright">
             &copy; 2025 Animāre（アニマーレ） &mdash; AIST, OLM Digital Inc.,

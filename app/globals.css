@@ -3,6 +3,16 @@
   --foreground: #171717;
 }
 
+@media (prefers-color-scheme: light) {
+  img.light {
+    display: inline;
+  }
+
+  img.dark {
+    display: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -13,6 +23,12 @@
   }
   body > section > header img {
     filter: invert(1);
+  }
+  img.light {
+    display: none;
+  }
+  img.dark {
+    display: inline;
   }
 }
 
