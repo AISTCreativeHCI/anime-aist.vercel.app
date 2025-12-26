@@ -15,7 +15,7 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <section>
-        <Header language="ja" />
+        <Header />
         <p>
           <strong>Animāre（アニマーレ）</strong>
           はラテン語で「命を吹き込む」を意味し、アニメーションの語源でもあります。アニメ（"ani"-me）づくりを対象に、しなやかなツ
@@ -28,13 +28,13 @@ const IndexPage: NextPage = () => {
         </p>
       </section>
       <Divider signature="A" />
-      <EventSection language="ja" />
+      <EventSection />
       <Divider signature="B" />
-      <MemberGroupsSection language="ja" groups={memberGroups} />
+      <MemberGroupsSection groups={memberGroups} />
       <Divider signature="C" />
-      <HistorySection language="ja" />
+      <HistorySection />
       <section>
-        <Footer language="ja" />
+        <Footer />
       </section>
     </>
   );

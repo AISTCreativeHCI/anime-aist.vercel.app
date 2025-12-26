@@ -1,16 +1,19 @@
+"use client";
+
 import { FC } from "react";
+import { useLanguage } from "./LanguageProvider";
 
-interface HeaderProps {
-  language: "en" | "ja";
-}
+export const Header: FC = () => {
+  const { language } = useLanguage();
 
-export const Header: FC<HeaderProps> = ({ language }) => (
-  <header>
-    <h1>
-      <img
-        src="/animare_logotype_en-ja.svg"
-        alt={`Animāre${language === "ja" ? "（アニマーレ）" : ""}`}
-      />
-    </h1>
-  </header>
-);
+  return (
+    <header>
+      <h1>
+        <img
+          src="/animare_logotype_en-ja.svg"
+          alt={`Animāre${language === "ja" ? "（アニマーレ）" : ""}`}
+        />
+      </h1>
+    </header>
+  );
+};

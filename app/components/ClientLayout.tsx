@@ -6,9 +6,14 @@ import { LanguageProvider } from "./LanguageProvider";
 import { ThemeProvider } from "./ThemeProvider";
 import { ThemeToggle } from "./ThemeToggle";
 
-export function ClientLayout({ children }: { children: ReactNode }) {
+interface ClientLayoutProps {
+  children: ReactNode;
+  language?: "ja" | "en";
+}
+
+export function ClientLayout({ children, language = "ja" }: ClientLayoutProps) {
   return (
-    <LanguageProvider>
+    <LanguageProvider initialLanguage={language}>
       <ThemeProvider>
         <ThemeToggle />
         {children}
