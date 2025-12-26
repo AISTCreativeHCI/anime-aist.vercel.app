@@ -7,6 +7,7 @@ import { Header } from "../components/Header";
 import { Divider } from "../components/Divider";
 import { Footer } from "../components/Footer";
 import Link from "next/link";
+import EventSection from "../components/EventSection";
 
 const memberGroups: MemberGroup[] = memberGroupsData;
 
@@ -26,8 +27,10 @@ const IndexPage: NextPage = () => {
         </p>
       </section>
       <Divider signature="A" />
-      <MemberGroupsSection language="en" groups={memberGroups} />
+      <EventSection language="en" />
       <Divider signature="B" />
+      <MemberGroupsSection language="en" groups={memberGroups} />
+      <Divider signature="C" />
       <HistorySection language="en" />
       <section>
         <Footer language="en" />

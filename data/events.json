@@ -1,0 +1,31 @@
+[
+  {
+    "date": "2026/2/10",
+    "time": "13:30-16:00",
+    "description": "アニマーレ ワークショップ #1",
+    "venue": "東京大学 本郷キャンパス（予定）",
+    "en": {
+      "description": "Animāre workshop #1",
+      "venue": "The University of Tokyo, Hongo Campus (tentative)"
+    }
+  },
+  {
+    "date": "2026/1/7",
+    "time": "13:00-15:00",
+    "description": "アニマーレ ミニトーク (Matteo Watzky氏)",
+    "venue": "産総研 中央事業所2群",
+    "en": {
+      "description": "Animāre mini-talk (Mr. Matteo Watzky)",
+      "venue": "AIST Tsukuba Central 2"
+    }
+  },
+  {
+    "date": "2025/11/28",
+    "description": "キックオフミーティング",
+    "venue": "株式会社オー・エル・エム デジタル",
+    "en": {
+      "description": "Kick-off meeting",
+      "venue": "OLM Digital, Inc."
+    }
+  }
+]
