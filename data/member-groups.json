@@ -235,52 +235,102 @@
       {
         "name": "五十嵐 健夫",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "教授"
+        "role": "教授",
+        "en": {
+          "name": "Takeo Igarashi",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Professor"
+        }
       },
       {
         "name": "沈 奕超",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "助教"
+        "role": "助教",
+        "en": {
+          "name": "I-Chao Shen",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Assistant Professor"
+        }
       },
       {
         "name": "河野 将大",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Masahiro Kono",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Master's Student"
+        }
       },
       {
         "name": "坂宮 丞太郎",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Jotaro Sakamiya",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Master's Student"
+        }
       },
       {
         "name": "姫 越翔",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Yuexiang Ji",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Master's Student"
+        }
       },
       {
         "name": "丸山 敦史",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Atsushi Maruyama",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Master's Student"
+        }
       },
       {
         "name": "高 旺",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Wang Gao",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Master's Student"
+        }
       },
       {
         "name": "張 以恒",
         "affiliation": "大学院情報理工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Yiheng Zhang",
+          "affiliation": "Graduate School of Information Science and Technology",
+          "role": "Master's Student"
+        }
       },
       {
         "name": "齋藤 峻",
         "affiliation": "理学部情報科学科",
-        "role": "学部生"
+        "role": "学部生",
+        "en": {
+          "name": "Shun Saito",
+          "affiliation": "School of Science",
+          "role": "Undergraduate Student"
+        }
       },
       {
         "name": "朱 梓豪",
         "affiliation": "大学院工学系研究科",
-        "role": "修士学生"
+        "role": "修士学生",
+        "en": {
+          "name": "Zihao Zhu",
+          "affiliation": "Graduate School of Engineering",
+          "role": "Master's Student"
+        }
       }
     ]
   }
