@@ -2,8 +2,10 @@
   {
     "date": "2025/12/26",
     "description": "英語版Webページを公開",
+    "link": "/en",
     "en": {
-      "description": "Published the English version of the web page"
+      "description": "Published the English version of the web page",
+      "link": "/en"
     }
   },
   {
