@@ -1,9 +1,9 @@
 "use client";
 
-import { ReactNode } from "react";
+import { FC, ReactNode } from "react";
 
 import { LanguageProvider } from "./LanguageProvider";
-import { ThemeProvider } from "./ThemeProvider";
+import { ThemeProvider, useTheme } from "./ThemeProvider";
 import { ThemeToggle } from "./ThemeToggle";
 
 interface ClientLayoutProps {
@@ -11,13 +11,17 @@ interface ClientLayoutProps {
   language?: "ja" | "en";
 }
 
-export function ClientLayout({ children, language = "ja" }: ClientLayoutProps) {
+export const ClientLayout: FC<ClientLayoutProps> = ({
+  children,
+  language = "ja",
+}) => {
+  const theme = useTheme();
   return (
     <LanguageProvider initialLanguage={language}>
       <ThemeProvider>
-        <ThemeToggle />
+        {!theme && <ThemeToggle />}
         {children}
       </ThemeProvider>
     </LanguageProvider>
   );
-}
+};
