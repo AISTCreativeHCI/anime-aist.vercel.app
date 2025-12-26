@@ -2,8 +2,8 @@
 
 import { FC, useEffect, useState } from "react";
 
-import { useTheme } from "./ThemeProvider";
 import { useLanguage } from "./LanguageProvider";
+import { useTheme } from "./ThemeProvider";
 
 export const ThemeToggle: FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -21,7 +21,7 @@ export const ThemeToggle: FC = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="theme-toggle"
+      className="theme toggle"
       aria-label={
         language === "ja"
           ? `テーマを${theme === "light" ? "ダーク" : "ライト"}モードに切り替え`

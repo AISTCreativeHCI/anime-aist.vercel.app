@@ -137,10 +137,9 @@ body > section > header img {
   max-width: 70vw;
 }
 
-.theme-toggle {
+.toggle {
   position: absolute;
   top: 1em;
-  right: 1em;
   width: 3em;
   height: 3em;
   border-radius: 0.4em;
@@ -156,10 +155,18 @@ body > section > header img {
   z-index: 1000;
 }
 
-.theme-toggle:hover {
+.toggle.theme {
+  right: 1em;
+}
+
+.toggle.language {
+  right: 4.5em;
+}
+
+.toggle:hover {
   transform: scale(1.1);
 }
 
-.theme-toggle:active {
+.toggle:active {
   transform: scale(0.95);
 }
