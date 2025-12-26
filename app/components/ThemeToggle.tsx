@@ -1,10 +1,13 @@
 "use client";
 
-import { useTheme } from "./ThemeProvider";
-import { useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 
-export function ThemeToggle() {
+import { useTheme } from "./ThemeProvider";
+import { useLanguage } from "./LanguageProvider";
+
+export const ThemeToggle: FC = () => {
   const { theme, toggleTheme } = useTheme();
+  const { language } = useLanguage();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -19,9 +22,13 @@ export function ThemeToggle() {
     <button
       onClick={toggleTheme}
       className="theme-toggle"
-      aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
+      aria-label={
+        language === "ja"
+          ? `テーマを${theme === "light" ? "ダーク" : "ライト"}モードに切り替え`
+          : `Switch to ${theme === "light" ? "dark" : "light"} mode`
+      }
     >
       {theme === "light" ? "🌙" : "☀️"}
     </button>
   );
-}
+};

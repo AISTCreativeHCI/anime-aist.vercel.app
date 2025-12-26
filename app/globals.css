@@ -3,7 +3,6 @@
   --foreground: #171717;
 }
 
-/* Support manual theme switching via data-theme attribute */
 :root[data-theme="dark"] {
   --background: #0a0a0a;
   --foreground: #ededed;
@@ -33,7 +32,6 @@
   display: none;
 }
 
-/* Fallback to system preference if no data-theme is set */
 @media (prefers-color-scheme: light) {
   :root:not([data-theme]) img.light {
     display: inline;
@@ -140,21 +138,21 @@ body > section > header img {
 }
 
 .theme-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-  border: 2px solid var(--foreground);
-  background: var(--background);
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 3em;
+  height: 3em;
+  border-radius: 0.4em;
+  border: 1px solid var(--foreground);
+  background: transparent;
   color: var(--foreground);
-  font-size: 24px;
+  font-size: 12px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.2s ease;
+  transition: transform 0.1s ease;
   z-index: 1000;
 }
 
