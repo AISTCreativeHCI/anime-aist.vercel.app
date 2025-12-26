@@ -161,32 +161,56 @@
       {
         "name": "熊谷 一樹",
         "affiliation": "研究開発部門",
-        "role": "Software Engineer"
+        "role": "Software Engineer",
+        "en": {
+          "name": "Kazuki Kumagai",
+          "affiliation": "OLM R&D"
+        }
       },
       {
         "name": "川出 達也",
         "affiliation": "研究開発部門",
-        "role": "Software Engineer"
+        "role": "Software Engineer",
+        "en": {
+          "name": "Tatsuya Kawade",
+          "affiliation": "OLM R&D"
+        }
       },
       {
         "name": "木下 美紀",
         "affiliation": "研究開発部門",
-        "role": "Head of Development"
+        "role": "Head of Development",
+        "en": {
+          "name": "Miki Kinoshita",
+          "affiliation": "OLM R&D"
+        }
       },
       {
         "name": "四倉 達夫",
         "affiliation": "研究開発部門",
-        "role": "R&D Supervisor"
+        "role": "R&D Supervisor",
+        "en": {
+          "name": "Tatsuo Yotsukura",
+          "affiliation": "OLM R&D"
+        }
       },
       {
         "name": "木村 歩",
         "affiliation": "研究開発部門",
-        "role": "R&D Manager"
+        "role": "R&D Manager",
+        "en": {
+          "name": "Ayumi Kimura",
+          "affiliation": "OLM R&D"
+        }
       },
       {
         "name": "安生 健一",
         "affiliation": "研究開発部門",
-        "role": "Executive R&D Advisor"
+        "role": "Executive R&D Advisor",
+        "en": {
+          "name": "Ken Anjyo",
+          "affiliation": "OLM R&D"
+        }
       }
     ]
   },
