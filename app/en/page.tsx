@@ -15,7 +15,7 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <section>
-        <Header language="en" />
+        <Header />
         <p>
           <strong>Animāre（アニマーレ）</strong> (pronounced ah-nee-MAH-ray)
           comes from the Latin &quot;to give life,&quot; which is also the root
@@ -27,13 +27,13 @@ const IndexPage: NextPage = () => {
         </p>
       </section>
       <Divider signature="A" />
-      <EventSection language="en" />
+      <EventSection />
       <Divider signature="B" />
-      <MemberGroupsSection language="en" groups={memberGroups} />
+      <MemberGroupsSection groups={memberGroups} />
       <Divider signature="C" />
-      <HistorySection language="en" />
+      <HistorySection />
       <section>
-        <Footer language="en" />
+        <Footer />
       </section>
     </>
   );

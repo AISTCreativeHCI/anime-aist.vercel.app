@@ -69,7 +69,7 @@ export default function RootLayout({
             `,
           }}
         />
-        <ClientLayout>{children}</ClientLayout>
+        <ClientLayout language="ja">{children}</ClientLayout>
       </body>
     </html>
   );
