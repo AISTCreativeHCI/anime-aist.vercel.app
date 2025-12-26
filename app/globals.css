@@ -37,6 +37,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist), var(--font-noto-sans-jp), Arial, Helvetica,
     sans-serif;
+  line-height: 1.6;
 }
 
 body > section {

@@ -1,130 +1,190 @@
 [
   {
     "title": "産業技術総合研究所",
+    "en": {
+      "title": "National Institute of Advanced Industrial Science and Technology (AIST)"
+    },
     "members": [
       {
         "name": "加藤 淳",
-        "organization": "産業技術総合研究所",
-        "affiliation": "アニマーレ PI, 人間情報インタラクション研究部門",
+        "pi": "PI",
+        "affiliation": "人間情報インタラクション研究部門",
         "role": "主任研究員",
-        "url": "https://junkato.jp/ja/animare"
+        "url": "https://junkato.jp/ja/animare",
+        "en": {
+          "name": "Jun Kato",
+          "pi": "Principal Investigator",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Senior Researcher",
+          "url": "https://junkato.jp/animare"
+        }
       },
       {
         "name": "後藤 真孝",
-        "organization": "産業技術総合研究所",
         "affiliation": "情報・人間工学領域",
-        "role": "上級首席研究員"
+        "role": "上級首席研究員",
+        "en": {
+          "name": "Masataka Goto",
+          "affiliation": "Department of Information Technology and Human Factors",
+          "role": "Senior Principal Researcher"
+        }
       },
       {
         "name": "中野 倫靖",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "研究グループ長"
+        "role": "研究グループ長",
+        "en": {
+          "name": "Tomoyasu Nakano",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Group Leader"
+        }
       },
       {
         "name": "佃 洸摂",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "主任研究員"
+        "role": "主任研究員",
+        "en": {
+          "name": "Kosetsu Tsukuda",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Senior Researcher"
+        }
       },
       {
         "name": "渡邉 研斗",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "主任研究員"
+        "role": "主任研究員",
+        "en": {
+          "name": "Kento Watanabe",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Senior Researcher"
+        }
       },
       {
         "name": "中塚 貴之",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "主任研究員"
+        "role": "主任研究員",
+        "en": {
+          "name": "Takayuki Nakatsuka",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Senior Researcher"
+        }
       },
       {
         "name": "Cheng Tian",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "研究員"
+        "role": "研究員",
+        "en": {
+          "name": "Cheng Tian",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Researcher"
+        }
       },
       {
         "name": "橋本 麦",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "協力研究員"
+        "role": "協力研究員",
+        "en": {
+          "name": "Baku Hashimoto",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Collaborative Researcher"
+        }
       },
       {
         "name": "大川 恵実",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "協力研究員"
+        "role": "協力研究員",
+        "en": {
+          "name": "Megumi Okawa",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Collaborative Researcher"
+        }
       },
       {
         "name": "三原 龍太郎",
-        "organization": "産業技術総合研究所",
         "affiliation": "人間情報インタラクション研究部門",
-        "role": "協力研究員"
+        "role": "協力研究員",
+        "en": {
+          "name": "Ryotaro Mihara",
+          "affiliation": "Human Informatics and Interaction Research Institute (HIIRI)",
+          "role": "Collaborative Researcher"
+        }
       },
       {
         "name": "濱﨑 雅弘",
-        "organization": "産業技術総合研究所",
         "affiliation": "人工知能研究センター",
-        "role": "副研究センター長"
+        "role": "副研究センター長",
+        "en": {
+          "name": "Masahiro Hamasaki",
+          "affiliation": "Artificial Intelligence Research Center (AIRC)",
+          "role": "Deputy Director"
+        }
       },
       {
         "name": "片岡 裕雄",
-        "organization": "産業技術総合研究所",
         "affiliation": "人工知能研究センター",
-        "role": "上級主任研究員"
+        "role": "上級主任研究員",
+        "en": {
+          "name": "Hirokatsu Kataoka",
+          "affiliation": "Artificial Intelligence Research Center (AIRC)",
+          "role": "Chief Senior Researcher"
+        }
       },
       {
         "name": "柳 凜太郎",
-        "organization": "産業技術総合研究所",
         "affiliation": "人工知能研究センター",
-        "role": "研究員"
+        "role": "研究員",
+        "en": {
+          "name": "Rintaro Yanagi",
+          "affiliation": "Artificial Intelligence Research Center (AIRC)",
+          "role": "Researcher"
+        }
       }
     ]
   },
   {
     "title": "株式会社オー・エル・エム・デジタル",
+    "en": {
+      "title": "OLM Digital, Inc."
+    },
     "members": [
       {
         "name": "前島 謙宣",
-        "organization": "株式会社オー・エル・エム・デジタル",
-        "affiliation": "アニマーレ Co-PI, 研究開発部門",
-        "role": "Head of Research"
+        "pi": "Co-PI",
+        "affiliation": "研究開発部門",
+        "role": "Head of Research",
+        "en": {
+          "name": "Akinobu Maejima",
+          "pi": "Co-Principal Investigator",
+          "affiliation": "OLM R&D"
+        }
       },
       {
         "name": "熊谷 一樹",
-        "organization": "株式会社オー・エル・エム・デジタル",
         "affiliation": "研究開発部門",
         "role": "Software Engineer"
       },
       {
         "name": "川出 達也",
-        "organization": "株式会社オー・エル・エム・デジタル",
         "affiliation": "研究開発部門",
         "role": "Software Engineer"
       },
       {
         "name": "木下 美紀",
-        "organization": "株式会社オー・エル・エム・デジタル",
         "affiliation": "研究開発部門",
         "role": "Head of Development"
       },
       {
         "name": "四倉 達夫",
-        "organization": "株式会社オー・エル・エム・デジタル",
         "affiliation": "研究開発部門",
         "role": "R&D Supervisor"
       },
       {
         "name": "木村 歩",
-        "organization": "株式会社オー・エル・エム・デジタル",
         "affiliation": "研究開発部門",
         "role": "R&D Manager"
       },
       {
         "name": "安生 健一",
-        "organization": "株式会社オー・エル・エム・デジタル",
         "affiliation": "研究開発部門",
         "role": "Executive R&D Advisor"
       }
@@ -132,70 +192,69 @@
   },
   {
     "title": "東京大学",
+    "en": {
+      "title": "The University of Tokyo"
+    },
     "members": [
       {
         "name": "小山 裕己",
-        "organization": "東京大学",
-        "affiliation": "アニマーレ Co-PI, 大学院工学系研究科",
-        "role": "准教授"
+        "pi": "Co-PI",
+        "affiliation": "大学院工学系研究科",
+        "role": "准教授",
+        "en": {
+          "name": "Yuki Koyama",
+          "pi": "Co-Principal Investigator",
+          "affiliation": "Graduate School of Engineering",
+          "role": "Associate Professor"
+        }
       },
       {
         "name": "五十嵐 健夫",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "教授"
       },
       {
         "name": "沈 奕超",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "助教"
       },
       {
         "name": "河野 将大",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "修士学生"
       },
       {
         "name": "坂宮 丞太郎",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "修士学生"
       },
       {
         "name": "姫 越翔",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "修士学生"
       },
       {
         "name": "丸山 敦史",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "修士学生"
       },
       {
         "name": "高 旺",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "修士学生"
       },
       {
         "name": "張 以恒",
-        "organization": "東京大学",
         "affiliation": "大学院情報理工学系研究科",
         "role": "修士学生"
       },
       {
         "name": "齋藤 峻",
-        "organization": "東京大学",
         "affiliation": "理学部情報科学科",
         "role": "学部生"
       },
       {
         "name": "朱 梓豪",
-        "organization": "東京大学",
         "affiliation": "大学院工学系研究科",
         "role": "修士学生"
       }
