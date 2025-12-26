@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Noto_Sans_JP } from "next/font/google";
 import { ReactNode } from "react";
 import "./globals.css";
+import { ClientLayout } from "./components/ClientLayout";
 
 const geist = Geist({
   variable: "--font-geist",
@@ -48,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={`${geist.variable} ${notoSansJp.variable} antialiased`}>
-        {children}
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
